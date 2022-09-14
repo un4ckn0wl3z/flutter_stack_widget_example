@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           SizedBox(
             child: Container(
-                constraints: BoxConstraints.expand(),
+                constraints: const BoxConstraints.expand(),
                 width: double.infinity,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
